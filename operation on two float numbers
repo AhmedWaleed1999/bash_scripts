@@ -1,0 +1,21 @@
+#!/bin/bash
+## this script to take two number form user and make sum operation ('+','-','*','/','%')
+
+
+## read the first number
+read -p "Enter First Number:" n1
+## read the second nuber
+read -p "Enter second Number:" n2
+                             echo "Value of n1= $n1"
+                             echo "Value of n2= $n2"
+                         ## the + operation
+                             echo "$n1+$n2" | bc
+                         ## the - operation
+                             echo "$n1-$n2" | bc
+                         ## the * operation
+                             echo "$n1*$n2" | bc
+                         ## the / operation
+                             echo "$n1/$n2" | bc
+                         ## the % operation
+                             echo "$n1%$n2" | bc
+
