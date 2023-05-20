@@ -1,3 +1,4 @@
+## do operation an two flating number
 ``` bash
 
 read -p "Enter the first number: " num1
