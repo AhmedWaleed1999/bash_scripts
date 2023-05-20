@@ -1,4 +1,4 @@
-## do operation an two flating number
+## do operation an two floating number(in this script user enter two floating numbers then enter operation )
 ``` bash
 
 read -p "Enter the first number: " num1
